@@ -1,8 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-//"DefaultConnection": "server=(localdb)\\MSSQLLocalDB;Database=bulky;Trusted_Connection=True;"
-
-
 namespace BulkyBookWeb.Models
 {
     public class Category
