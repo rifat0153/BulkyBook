@@ -8,7 +8,9 @@
             <hr />
         </div>
 
-         <div class="mb-3">
+        <div asp-validation-summary="All"></div>
+
+        <div class="mb-3">
             <label asp-for="Name">Name</label>
             <input asp-for="Name" class="form-control"/>
             <span asp-validation-for="Name" class="text-danger"></span>
